@@ -1,0 +1,23 @@
+.container{
+    border:2px solid orange;
+    border-radius:50%;
+    border-top:5px solid black;
+    width:200px;
+    height:200px;
+    background-color: aqua;
+    animation:we 2s linear infinite;
+}
+@keyframes we{
+    to{
+        transform:rotate(360deg);
+
+    }
+}
+h1{
+    font-size:40px;
+    text-align: center;
+    border:5px solid red;
+    padding:20px 10px;
+    background-color: rgb(176, 176, 228);
+    
+}
